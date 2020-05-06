@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Projeto_Quiz
 {
-    public partial class Form1 : Form
+    public partial class frmBoasVindas : Form
     {
-        public Form1()
+        public frmBoasVindas()
         {
             InitializeComponent();
+        }
+
+        private void BtnCliqueAqui_Click(object sender, EventArgs e)
+        {
+            frmInformações frmInformações = new frmInformações();
+            frmInformações.Show();
+            this.Hide();
         }
     }
 }

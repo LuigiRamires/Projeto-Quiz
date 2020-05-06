@@ -46,14 +46,126 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ClasseDados.cs" />
+    <Compile Include="frmBoasVindas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmBoasVindas.Designer.cs">
+      <DependentUpon>frmBoasVindas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz01.Designer.cs">
+      <DependentUpon>frmQuiz01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz02.Designer.cs">
+      <DependentUpon>frmQuiz02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz03.Designer.cs">
+      <DependentUpon>frmQuiz03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz04.Designer.cs">
+      <DependentUpon>frmQuiz04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz05.Designer.cs">
+      <DependentUpon>frmQuiz05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz06.Designer.cs">
+      <DependentUpon>frmQuiz06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz07.Designer.cs">
+      <DependentUpon>frmQuiz07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz08.Designer.cs">
+      <DependentUpon>frmQuiz08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz09.Designer.cs">
+      <DependentUpon>frmQuiz09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuiz10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuiz10.Designer.cs">
+      <DependentUpon>frmQuiz10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultado.Designer.cs">
+      <DependentUpon>frmResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informações.Designer.cs">
+      <DependentUpon>Informações.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBoasVindas.resx">
+      <DependentUpon>frmBoasVindas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz01.resx">
+      <DependentUpon>frmQuiz01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz02.resx">
+      <DependentUpon>frmQuiz02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz03.resx">
+      <DependentUpon>frmQuiz03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz04.resx">
+      <DependentUpon>frmQuiz04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz05.resx">
+      <DependentUpon>frmQuiz05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz06.resx">
+      <DependentUpon>frmQuiz06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz07.resx">
+      <DependentUpon>frmQuiz07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz08.resx">
+      <DependentUpon>frmQuiz08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz09.resx">
+      <DependentUpon>frmQuiz09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuiz10.resx">
+      <DependentUpon>frmQuiz10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultado.resx">
+      <DependentUpon>frmResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informações.resx">
+      <DependentUpon>Informações.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +174,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +188,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-bing-news-logo-microsoft-msn-hoodie-twitch-5b49d27f637831.3173094215315646714074.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNGPIX-COM-Microsoft-Logo-PNG-Transparent-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1485481300-38_78657.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html-icon-file-types-icon-orange-text-line-logo-signage-rectangle-png-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html-logo-png-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Navegadores Web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sir_Tim_Berners-Lee_%28cropped%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WordPress-logotype-simplified.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-chrome-logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
